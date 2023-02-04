@@ -43,7 +43,6 @@ internal class CoreDataManager {
         }
     }()
 
-    @available(iOS 10.0, *)
     private lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
